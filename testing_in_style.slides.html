@@ -13414,7 +13414,6 @@ a.anchor-link {
 <li><code>pytest.mark.parametrize</code></li>
 <li><code>pytest-raises</code></li>
 <li><code>hypothesis</code></li>
-<li>package data</li>
 <li><code>coverage</code></li>
 </ul>
 
@@ -13491,6 +13490,68 @@ skip_install = true</code></pre>
 <p>or additionally allow global site-packages in the <code>[testenv]</code> section:</p>
 
 <pre><code>sitepackages = true</code></pre>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Coverage">Coverage<a class="anchor-link" href="#Coverage">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You can measure coverage locally as specified previously but you can also use online providers which gives you:</p>
+<ul>
+<li>Tracking of coverage over branches and commit histories</li>
+<li>Integration with pull (merge) request checks that require a certain coverage</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Coverage-Providers">Coverage Providers<a class="anchor-link" href="#Coverage-Providers">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><a href="https://codecov.io/">codecov.io</a>:<ul>
+<li>free for open source [+]</li>
+<li>easily combines parallel reports [+]</li>
+</ul>
+</li>
+<li><a href="https://coveralls.io/">coveralls.io</a>:<ul>
+<li>free for open source [+]</li>
+<li>slightly more work for parallel reports [~]</li>
+</ul>
+</li>
+<li><a href="https://codeclimate.com/">code climate</a>:<ul>
+<li>free for open source [+]</li>
+<li>investigates code quality [+]</li>
+<li>parallel reports require separate storage (such as S3 bucket) [-]</li>
+</ul>
+</li>
+<li><a href="https://landscape.io/">Landscape</a>:<ul>
+<li><ul>
+<li>free for open source [+]</li>
+</ul>
+</li>
+<li><ul>
+<li>investigates code quality [+]</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>
